@@ -41,3 +41,39 @@ ul li::before {
     padding-right: 10px;
     padding-left: 15px;  
 }
+#fullName {
+    width: 30%;
+    height: 25px;
+}
+#email {
+    width: 30%;
+    height: 25px;
+    margin-left: 29px;
+}
+#title {
+    width: 30%;
+    height: 25px;
+    margin-left: 38px;
+}
+#message {
+    width: 30%;
+    padding-bottom: 50px;
+    overflow: hidden;
+    resize: none;
+    margin-left: 15px;
+}
+#submit {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 30%;
+    margin-left: 80px;
+}
+button:hover {
+    background-color: orange;
+}

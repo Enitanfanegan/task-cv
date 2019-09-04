@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--CSS file here-->
         <link rel="stylesheet" href="CV-stylesheet.css">
+        <!--Javascript file here-->
+        <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="Eniolajs.js"></script>
         <title>ENIOLA FANEGAN CV</title>
        
     </head>
@@ -26,6 +30,22 @@
             <p><strong>Objective: </strong>I am highly self motivated and this continually drives me to be the best that I can be. I pursue continually a course of perpetual self development especially in my chosen field of endeavor. </p>
         </div>
         <div class="padding">
+            
+            <h3>Work Experience
+                <span style= "float: right;">Date</span></h3>
+            <strong>Linksoft Communication System Nigeria LTD
+                <span style= "float: right;">2014</span></strong></br>
+                <p>Assistant Maintenance Planner (Intern)</br>
+                *Description of work: Compilation of data as regards jobs done on the field and ensuring jobs are done for sites to be up and running with constant follow up.</p>
+            <strong>Nigeria Bag Manufacturing Company (BAGCO)
+                <span style= "float: right;">2015-2016</span></strong></br>
+                <p>Mechanical Maintenance Technician (Intern)</br>
+                *Description of work: Repair, Maintenance, Inspection and Installation of machines.</p>    
+            <strong>Drake & Niger Limited
+                <span style= "float: right;">2018-2019</span></strong></br>
+                <p>Maintenance Technician (Intern)</br>
+                *Description of work: Installation and maintenance of meters and other equipments. Relating with clients to get their satisfaction.</p>
+            
             <h3 style= "text-align: left;">Schools Attended 
                 <span style= "float: right;"> Date</span>
             </h3>
@@ -64,20 +84,6 @@
             <p>HTML & CSS Training
                 <span style= "float: right;">2019</span></p>
            
-            <h3>Work Experience
-                <span style= "float: right;">Date</span></h3>
-            <strong>Linksoft Communication System Nigeria LTD
-                <span style= "float: right;">2014</span></strong></br>
-            <p>Assistant Maintenance Planner (Intern)</br>
-            *Description of work: Compilation of data as regards jobs done on the field and ensuring jobs are done for sites to be up and running with constant follow up.</p>
-            <strong>Nigeria Bag Manufacturing Company (BAGCO)
-                <span style= "float: right;">2015-2016</span></strong></br>
-            <p>Mechanical Maintenance Technician (Intern)</br>
-            *Description of work: Repair, Maintenance, Inspection and Installation of machines.</p>    
-            <strong>Drake & Niger Limited
-                <span style= "float: right;">2018-2019</span></strong></br>
-            <p>Maintenance Technician (Intern)</br>
-            *Description of work: Installation and maintenance of meters and other equipments. Relating with clients to get their satisfaction.</p>
         </div>
         <div class="padding">
             <h3>Skills and Strenght</h3>
@@ -109,7 +115,31 @@
             </ul>
         </div>
 
+        <div class="padding" style="padding-left: 20px;">
+        <form action="https://formspree.io/eni.fanegan@gmail.com" method="POST" name="form" id="form">
+        <h3>Contact me:</h3>
+        <label>Full Name:
+            <input type="text" name="fullName" id="name" placeholder="Your full name" required><br>
+        </label>
+        </br>
+        <label>Email:
+            <input type="email" name="email" id="email" placeholder="Your email" required><br>
+        </label>
+        </br>
+        <label>Title:
+            <input type="text" name="title" id="title" placeholder="Title of message" required><br>
+        </label>
+        </br>
+        <label><span style="float: left;">Message:</span>
+            <textarea type="text" wrap="soft" name="message" id="message" placeholder="Type your message" required></textarea><br>
+        </label>
+        <div class="status">
 
+        </div>
+        </br>
+            <input type="submit" name="submit" id="submit" value="Send" onclick="submit"/>
+        </form>
+        </div> 
 
     </body>
 </html>
